@@ -1,3 +1,3 @@
 # DynamicPricingAgent
 DynamicPricingAgent
-##l#jK
+### More info will be added later
