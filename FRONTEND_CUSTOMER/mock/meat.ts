@@ -1,0 +1,58 @@
+import type { Product } from "@/types/product";
+
+export const meatProducts: Product[] = [
+  {
+    id: "meat-1",
+    name: "Chicken Breast",
+    unit: "500g",
+    price: 249,
+    imageUrl: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400&q=80",
+    category: "meat",
+    daysUntilExpiry: 3,
+  },
+  {
+    id: "meat-2",
+    name: "Mutton Curry Cut",
+    unit: "1kg",
+    price: 699,
+    imageUrl: "https://images.unsplash.com/photo-1602470520998-f4a52199a3d6?w=400&q=80",
+    category: "meat",
+    daysUntilExpiry: 2,
+  },
+  {
+    id: "meat-3",
+    name: "Chicken Thigh",
+    unit: "500g",
+    price: 219,
+    imageUrl: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&q=80",
+    category: "meat",
+    daysUntilExpiry: 3,
+  },
+  {
+    id: "meat-4",
+    name: "Lamb Chops",
+    unit: "500g",
+    price: 549,
+    imageUrl: "https://images.unsplash.com/photo-1603048588665-791ca91d0e92?w=400&q=80",
+    category: "meat",
+    daysUntilExpiry: 2,
+  },
+  {
+    id: "meat-5",
+    name: "Ground Beef",
+    unit: "500g",
+    price: 379,
+    imageUrl: "https://images.unsplash.com/photo-1551446591-142875a901a1?w=400&q=80",
+    category: "meat",
+    daysUntilExpiry: 2,
+  },
+  {
+    id: "meat-6",
+    name: "Chicken Wings",
+    unit: "750g",
+    price: 289,
+    imageUrl: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=400&q=80",
+    category: "meat",
+    daysUntilExpiry: 3,
+  },
+];

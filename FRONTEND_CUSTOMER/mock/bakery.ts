@@ -1,0 +1,58 @@
+import type { Product } from "@/types/product";
+
+export const bakeryProducts: Product[] = [
+  {
+    id: "bakery-1",
+    name: "Whole Wheat Bread",
+    unit: "400g",
+    price: 59,
+    imageUrl: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
+    category: "bakery",
+    daysUntilExpiry: 4,
+  },
+  {
+    id: "bakery-2",
+    name: "Butter Croissant",
+    unit: "4 pcs",
+    price: 149,
+    imageUrl: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&q=80",
+    category: "bakery",
+    daysUntilExpiry: 2,
+  },
+  {
+    id: "bakery-3",
+    name: "Chocolate Muffin",
+    unit: "6 pcs",
+    price: 189,
+    imageUrl: "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=400&q=80",
+    category: "bakery",
+    daysUntilExpiry: 3,
+  },
+  {
+    id: "bakery-4",
+    name: "Sourdough Loaf",
+    unit: "500g",
+    price: 129,
+    imageUrl: "https://images.unsplash.com/photo-1585478259715-876a6a81fc08?w=400&q=80",
+    category: "bakery",
+    daysUntilExpiry: 5,
+  },
+  {
+    id: "bakery-5",
+    name: "Cinnamon Rolls",
+    unit: "4 pcs",
+    price: 169,
+    imageUrl: "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=400&q=80",
+    category: "bakery",
+    daysUntilExpiry: 2,
+  },
+  {
+    id: "bakery-6",
+    name: "Multigrain Buns",
+    unit: "6 pcs",
+    price: 89,
+    imageUrl: "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=400&q=80",
+    category: "bakery",
+    daysUntilExpiry: 4,
+  },
+];
